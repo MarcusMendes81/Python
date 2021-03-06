@@ -1,0 +1,8 @@
+n = input('\033[1:31mDigite algo: ')
+print(type(n))
+print('{} é numérico?'.format(n), n.isnumeric())
+print('{} é Alfabético?'.format(n), n.isalpha())
+print('{} é Alfanumérico?' .format(n), n.isalnum())
+print('{} está em minusculas?'.format(n), n.islower())
+print('{} está em maísculas?'.format(n), n.isupper())
+print('{} está capitalizada?' .format(n), n.istitle())
